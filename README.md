@@ -1,37 +1,30 @@
 # Secure Site Webapp
 ---
-Live Web-App :- https://secure-site.herokuapp.com/
---- 
+### Live Web-App: https://secure-site.herokuapp.com/
 
 ![result 0](https://i.ibb.co/B6yrWfc/Screenshot-Securesite.png)
 
 ---
-
-## Domain :- CyberSecurity
----
-## Project Name:- SecureSite
----
-## Need:-
+## Need Statement :
 
 Phishing is one of the techniques which are used by intruders to get access to the user credentials or to gain access to sensitive data. This type of access is done by creating a replica of the websites which looks the same as the original websites which we use on a daily basis but when a user clicks on the link he will see the website and think it's original and try to provide his credentials.
 
 To overcome this problem we are using some of the machine learning algorithms in which will help us to identify the phishing websites based on the features present in the algorithm. By using this algorithm we can be able to keep the user personal credentials or sensitive data safe from intruders.
 
 ---
-
-## Objective :-
+## Objective :
 The main aim of the project to provide users with an interactive interface using which they can predict if a website is phishing or not.
  
 We will extract the features from the given URL and give them to our model for predictions. We are going to compare different machine learning algorithms and the best classifier that will be used to detect malicious URL.
  
- ---
-## Dataset :-
+---
+## Dataset :
 To evaluate our machine learning techniques, we have used the ‘Phishing Websites Dataset’ from the UCI Machine learning repository.  It consists of features of 11055 URLs. Each URL has 30 Features/Attributes .
 
-Link of Dataset :- https://archive.ics.uci.edu/ml/datasets/Phishing+Websites
+Link of Dataset : https://archive.ics.uci.edu/ml/datasets/Phishing+Websites
 
 ---
-## Algorithms used are :-
+## Algorithms used are :
 - Random Forest Classifier ( Accuracy = 97.4% )
 - K-Nearest Neighbours (KNN) ( Accuracy = 95% )
 - Naive Bayes Classifier ( Accuracy = 90% )
@@ -39,7 +32,7 @@ Link of Dataset :- https://archive.ics.uci.edu/ml/datasets/Phishing+Websites
 - Artificial Neural Networks ( Accuracy = 96% )
 
 ---
-## Installation
+## Installation :
 
 Create a virtualenv and install the dependencies.
 
